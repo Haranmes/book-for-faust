@@ -1,5 +1,9 @@
+var audio = new Audio("../audio/turning.mp3");
 $('.page').click(function() {
+    
     $(this).removeClass('no-anim').toggleClass('flipped');
+    
+    
    $('.page > div').click(function(e) {
         e.stopPropagation();
    });
@@ -18,4 +22,8 @@ function reorder(){
    });    
 }
  reorder()
+
+$('.page').click(function() {
+    audio.play();
+})
     
