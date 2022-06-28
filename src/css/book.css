@@ -28,13 +28,15 @@ body * {
 
 body {
   
-  background-image: url("../images/wood.jpg");
+  background-image: url("http://www.unique-online.de/wp-content/2015/07/prison_Bob-Jagendorf-web.jpg");
   height: 100% auto;
   
   color: #222;
   font-family: 'Gabriela', serif;
   perspective: 70em;/*in your face*/
 	overflow-y: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
 h1, p {

@@ -16,6 +16,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Haranmes/book-for-faust/issues"
+  },
+  "dependencies": {
+    "turn.js": "^1.0.5"
   }
-  
 }

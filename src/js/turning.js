@@ -1,4 +1,4 @@
-var audio = new Audio("../audio/turning.mp3");
+
 $('.page').click(function() {
     
     $(this).removeClass('no-anim').toggleClass('flipped');
@@ -7,6 +7,7 @@ $('.page').click(function() {
    $('.page > div').click(function(e) {
         e.stopPropagation();
    });
+   
  reorder()   
 });
 function reorder(){
@@ -24,6 +25,7 @@ function reorder(){
  reorder()
 
 $('.page').click(function() {
+    let audio = new Audio("../audio/turning.mp3");
     audio.play();
 })
     
