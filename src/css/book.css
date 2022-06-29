@@ -163,3 +163,7 @@ h1, p {
       rotateY(0deg);    
     }
   }
+
+  .credit {
+    color: white
+  }
